@@ -22,7 +22,7 @@ class Demo {
             audio.append(jenny.say("I'm not."));
             audio.append(alba.withGain(0.5f).say("I am much quieter"));
             
-            audio.save(Path.of("/tmp/bleah.dat"));
+            audio.save(Path.of("/tmp/bleah.wav"));
             
             audio.play(); // block while audio plays
         }
