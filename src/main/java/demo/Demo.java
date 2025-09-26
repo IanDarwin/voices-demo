@@ -24,8 +24,6 @@ class Demo {
             
             audio.save(Path.of("/tmp/voices-demo.wav"));
             
-            audio.play(); // block while audio plays
-
             System.exit(0);
         }
 	}
