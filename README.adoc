@@ -2,6 +2,10 @@
 
 A simple demo of Henry Coles' `voices` API for text-to-speech in Java.
 
+== Running
+
+You can run this in your IDE as long as it knows to get the Maven dependencies.
+
 To run it from the command line:
 
 	mvn compile exec:java
