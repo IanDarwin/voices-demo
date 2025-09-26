@@ -1,0 +1,10 @@
+= voices-demo
+
+A simple demo of Henry Coles' `voices` API for text-to-speech in Java.
+
+To run it from the command line:
+
+	mvn compile exec:java
+
+Note that Apache Maven isn't `make` so you do have to compile befor running;
+this could probably be fixed by fiddling in the pom file.
